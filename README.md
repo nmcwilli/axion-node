@@ -25,7 +25,7 @@ This project is **dual-licensed**:
 - Source-available
 - Copyleft applies to network use (standard AGPL rules)
 
-- **Commercial Edition:** 
+**Commercial Edition:** 
 For organizations or developers who need:
 - Closed-source modifications
 - Private forks
