@@ -1,5 +1,5 @@
 # About
-AxionNode is an open-source social platform consisting of:
+AxionNode is an open source social platform consisting of:
 - A Python Django backend
 - Nginx reverse proxy
 - A React Native + Expo mobile/web frontend
@@ -21,7 +21,7 @@ Created by Michael Neil McWilliam
 This project is **dual-licensed**:
 
 **Community Edition:** [AGPL v3.0]
-- Free for personal, academic, or commercial use as long as modifications are open-sourced
+- Free for personal, academic, or commercial use as long as modifications are open sourced
 - Source-available
 - Copyleft applies to network use (standard AGPL rules)
 
@@ -45,7 +45,7 @@ YouTube IFrame API:
 The frontend uses libraries that rely on the YouTube IFrame API, which is governed by Google’s Terms of Service.
 Use of YouTube content must comply with Google’s policies regardless of your AxionNode license.
 
-Open-source Dependencies:
+Open Source Dependencies:
 This project includes dependencies licensed under:
 - MIT
 - Apache-2.0
