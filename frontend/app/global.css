@@ -1,0 +1,35 @@
+/* Default scrollbar size */
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+/* Light mode track */
+html.light ::-webkit-scrollbar-track {
+  background: #e5e5e5;
+}
+
+/* Light mode thumb */
+html.light ::-webkit-scrollbar-thumb {
+  background: #b5b5b5;
+  border-radius: 8px;
+}
+
+html.light ::-webkit-scrollbar-thumb:hover {
+  background: #999;
+}
+
+/* Dark mode track */
+html.dark ::-webkit-scrollbar-track {
+  background: #1a1a1a;
+}
+
+/* Dark mode thumb */
+html.dark ::-webkit-scrollbar-thumb {
+  background: #444;
+  border-radius: 8px;
+}
+
+html.dark ::-webkit-scrollbar-thumb:hover {
+  background: #666;
+}

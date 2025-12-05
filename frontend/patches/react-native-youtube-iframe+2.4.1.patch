@@ -1,0 +1,12 @@
+diff --git a/node_modules/react-native-youtube-iframe/lib/commonjs/WebView.web.js b/node_modules/react-native-youtube-iframe/lib/commonjs/WebView.web.js
+index d14e94e..eef6647 100644
+--- a/node_modules/react-native-youtube-iframe/lib/commonjs/WebView.web.js
++++ b/node_modules/react-native-youtube-iframe/lib/commonjs/WebView.web.js
+@@ -9,5 +9,5 @@ Object.defineProperty(exports, "WebView", {
+     return _reactNativeWebWebview.WebView;
+   }
+ });
+-var _reactNativeWebWebview = require("react-native-web-webview");
++var _reactNativeWebWebview = require("react-native-webview");
+ //# sourceMappingURL=WebView.web.js.map
+\ No newline at end of file

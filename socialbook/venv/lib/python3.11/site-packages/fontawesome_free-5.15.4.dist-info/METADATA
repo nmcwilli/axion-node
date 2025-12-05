@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: fontawesome-free
+Version: 5.15.4
+Summary: Font Awesome Free
+Home-page: https://github.com/FortAwesome/Font-Awesome
+Author: Font Awesome
+Author-email: hello@fontawesome.com
+License: UNKNOWN
+Keywords: pip,font,awesome
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+
+# Font Awesome Free Download
+
+This package is designed to be easily used in a django project to leverage how Django handles static files, but can be installed for any Python project. Font Awesome free will be downloaded to your site-packages so if you are using a framework other than Django you will need to alter these instructions to work with what you are using.
+
+# Downloading Font Awesome Free for a Django project
+
+Add ```fontawesome-free==version_number``` to your ```requirements.txt``` file.
+
+Add ```'fontawesome-free'``` to your installed apps in your ```settings.py``` file.
+
+Add the following lines to your ```<head>``` in your base template if you want to use Font Awesome in your entire project or in the ```<head>``` of any individual files where you want to use Font Awesome.
+
+```
+<link href="{% static 'fontawesome_free/css/all.min.css' %}" rel="stylesheet" type="text/css">
+<script src="{% static 'fontawesome_free/js/all.min.js' %}"></script>
+```
+
+You are now ready to use Font Awesome Free! To get started using Font Awesome Free go to https://fontawesome.com/start.
+
+Check out our icons here https://fontawesome.com/icons?d=gallery.
+
+You can find our docs at https://fontawesome.com/how-to-use/on-the-web/referencing-icons/basic-use.
+
+Have fun!
+

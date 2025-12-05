@@ -1,0 +1,21 @@
+[
+  {
+      "origin": [
+          "https://axionnode.com",
+          "https://*.axionnode.com",
+          "http://127.0.0.1:8080",
+          "https://your-web-service.northamerica-northeast1.run.app", 
+          "https://your-web-service.northamerica-northeast1.run.app/api", 
+          "http://192.168.2.14:8080", 
+          "*"
+      ],
+      "method": ["GET", "HEAD", "OPTIONS"],
+      "responseHeader": [
+          "Content-Type",
+          "Access-Control-Allow-Origin",
+          "Access-Control-Allow-Headers",
+          "Access-Control-Allow-Methods"
+      ],
+      "maxAgeSeconds": 3600
+  }
+]

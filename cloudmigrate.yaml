@@ -1,0 +1,83 @@
+# Copyright 2020 Google LLC
+#
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+#      http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+
+# IMPORTANT
+# Warning you must add in your associated Substitutions! 
+# This is critical if you want your project to build properly using Cloud Build
+substitutions:
+  _INSTANCE_NAME: instance-name-here
+  _REGION: region-name-here
+  _SERVICE_NAME: web-service-name-here
+  _SECRET_SETTINGS_NAME: secret_settings_name
+  _REPO_NAME: repo-name-here
+  _PUBLIC_API_URL: "https://axionnode.com/api"
+
+steps:
+  - id: "build image"
+    name: "gcr.io/cloud-builders/docker"
+    args: [
+      "build", 
+      "-t", 
+      "${_REGION}-docker.pkg.dev/${PROJECT_ID}/${_REPO_NAME}/${_SERVICE_NAME}", 
+      "--build-arg", "EXPO_PUBLIC_API_URL=${_PUBLIC_API_URL}",
+      "."
+    ]
+    env:
+      - 'GOOGLE_CLOUD_PROJECT=your-project-id'
+      - 'DJANGO_SETTINGS_MODULE=socialbook.settings'
+
+  - id: "push image"
+    name: "gcr.io/cloud-builders/docker"
+    args: ["push", "${_REGION}-docker.pkg.dev/${PROJECT_ID}/${_REPO_NAME}/${_SERVICE_NAME}"]
+
+  - id: "apply migrations"
+    name: "gcr.io/google-appengine/exec-wrapper"
+    args:
+      [
+        "-i",
+        "${_REGION}-docker.pkg.dev/${PROJECT_ID}/${_REPO_NAME}/${_SERVICE_NAME}",
+        "-s",
+        "${PROJECT_ID}:${_REGION}:${_INSTANCE_NAME}",
+        "-e",
+        "SETTINGS_NAME=${_SECRET_SETTINGS_NAME}",
+        "--",
+        "python",
+        "socialbook/manage.py",
+        "migrate",
+      ]
+
+  - id: "collect static"
+    name: "gcr.io/google-appengine/exec-wrapper"
+    env:
+      - "GOOGLE_CLOUD_PROJECT=${PROJECT_ID}"
+      - "DJANGO_SETTINGS_MODULE=socialbook.settings"
+    args:
+      [
+        "-i",
+        "${_REGION}-docker.pkg.dev/${PROJECT_ID}/${_REPO_NAME}/${_SERVICE_NAME}",
+        "-s",
+        "${PROJECT_ID}:${_REGION}:${_INSTANCE_NAME}",
+        "-e",
+        "SETTINGS_NAME=${_SECRET_SETTINGS_NAME}",
+        "--",
+        "python",
+        "socialbook/manage.py",
+        "collectstatic",
+        "--verbosity",
+        "2",
+        "--no-input"
+      ]
+
+images:
+  - "${_REGION}-docker.pkg.dev/${PROJECT_ID}/${_REPO_NAME}/${_SERVICE_NAME}"
