@@ -386,7 +386,7 @@ const HomeScreen = () => {
             <iframe
               key={index}
               width="100%"
-              height="300"
+              height="450"
               src={`https://www.youtube.com/embed/${youtubeID}?autoplay=0`}
               frameBorder="0"
               allow="accelerometer; encrypted-media; gyroscope; picture-in-picture"
