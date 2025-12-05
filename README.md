@@ -31,7 +31,7 @@ For organizations or developers who need:
 - Private forks
 - Proprietary hosting
 - Enterprise support
-- See the full license: (./LICENSE-COMMERCIAL.md)
+- See the full license: ./LICENSE-COMMERCIAL.md
 
 Email: licensing@axionnode.com for details.
 
