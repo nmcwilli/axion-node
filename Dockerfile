@@ -59,7 +59,7 @@ RUN /app/venv/bin/pip install --no-cache-dir -r requirements.txt
 COPY --from=frontend /frontend/dist /app/frontend/build
 
 # Install and run NGINX as a Reverse Proxy 
-RUN apt-get update && apt-get install -y nginx supervisor  # 👈 FIX: Install supervisor here
+RUN apt-get update && apt-get install -y nginx supervisor 
 COPY nginx.conf /etc/nginx/nginx.conf
 
 # Copy Supervisor configuration
