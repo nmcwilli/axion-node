@@ -1,6 +1,7 @@
 # Contributing to axion-node
 
 Thank you for your interest in contributing! 🎉
+
 We welcome improvements of all kinds - whether it’s code, documentation, bug reports, or new ideas.
 
 This document outlines the process, expectations, and licensing terms for contributions.
