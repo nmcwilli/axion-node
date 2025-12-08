@@ -30,10 +30,10 @@ For organizations or developers who need:
 - Closed-source modifications
 - Private forks
 - Proprietary hosting
-- See the full license: ./LICENSE-COMMERCIAL.md
+- See the full license: [Commercial License](./LICENSE-COMMERCIAL.md).
 
 To purchase a commercial license, visit: https://axionnode.com/commercial-license
-Email us at licensing@axionnode.com for any questions.
+Email us at [licensing@axionnode.com](mailto:licensing@axionnode.com) for any questions.
 
 By contributing to this repository, you agree that your contributions will be licensed under AGPL-v3 for the Community Edition.
 
