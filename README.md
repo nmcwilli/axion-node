@@ -24,13 +24,14 @@ This project is **dual-licensed**:
 - Free for personal, academic, or commercial use as long as modifications are open sourced
 - Source-available
 - Copyleft applies to network use (standard AGPL rules)
+- View the AGPL v3.0 license: [AGPL v3.0 License](./LICENSE).
 
 **Commercial Edition:** 
 For organizations or developers who need:
 - Closed-source modifications
 - Private forks
 - Proprietary hosting
-- See the full license: [Commercial License](./LICENSE-COMMERCIAL.md).
+- View the commercial license: [Commercial License](./LICENSE-COMMERCIAL.md)
 
 To purchase a commercial license, visit: https://axionnode.com/commercial-license
 Email us at [licensing@axionnode.com](mailto:licensing@axionnode.com) for any questions.

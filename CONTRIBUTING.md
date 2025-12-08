@@ -1,11 +1,22 @@
 # Contributing to axion-node
 
-Thank you for contributing!
+Thank you for your interest in contributing! 🎉
+We welcome improvements of all kinds - whether it’s code, documentation, bug reports, or new ideas.
 
-All contributions to this repository are made under the terms of the
-[AGPL v3 License](./LICENSE).
+This document outlines the process, expectations, and licensing terms for contributions.
 
-If you contribute code, documentation, or other assets, you agree that your
-contributions are licensed under the same dual-license model (AGPL v3 for the
-community edition, with the option for the project maintainer to include them
-in the commercial edition).
+⸻
+
+# 📄 Licensing
+
+By contributing to axion-node, you agree to license your contributions under the repository’s dual-license model:
+- AGPL-3.0 for the open-source Community Edition
+- A commercial license for customers of the Commercial Edition
+
+All contributions (code, documentation, tests, and other assets) may be used under both licenses at the project maintainer’s discretion.
+
+For details:
+- Community license: [APGL-3.0 License](./LICENSE).￼
+- Commercial license: [Commercial License](./LICENSE-COMMERCIAL.md)
+
+If you do not agree to these terms, please do not submit contributions.
