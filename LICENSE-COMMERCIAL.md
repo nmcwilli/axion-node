@@ -54,7 +54,7 @@ If your company needs privacy or intends to build a proprietary service on top o
 Commercial licenses are available from Clockwork Venture Inc.
 
 **Pricing and details:**  
-https://axionnode.com/licensing
+https://axionnode.com/commercial-licensing
 
 **Contact:**  
 licensing@axionnode.com
