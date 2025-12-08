@@ -122,5 +122,5 @@ Large or breaking contributions submitted without prior discussion may be declin
 # 🙏 Thank You
 
 Your time and contributions help improve Axion Node for everyone.
-We appreciate all efforts—big or small!
+We appreciate all efforts — big or small!
 We hope to ultimately create an easy to use social platform that can be deployed by everyone for personal or commercial use.
