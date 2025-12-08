@@ -1,4 +1,4 @@
-# Contributing to axion-node
+# Contributing to Axion Node
 
 Thank you for your interest in contributing! 🎉
 
@@ -10,7 +10,7 @@ This document outlines the process, expectations, and licensing terms for contri
 
 # 📄 Licensing
 
-By contributing to axion-node, you agree to license your contributions under the repository’s dual-license model:
+By contributing to Axion Node, you agree to license your contributions under the repository’s dual-license model:
 - AGPL-3.0 for the open-source Community Edition
 - A commercial license for customers of the Commercial Edition
 
@@ -121,6 +121,6 @@ Large or breaking contributions submitted without prior discussion may be declin
 
 # 🙏 Thank You
 
-Your time and contributions help improve axion-node for everyone.
+Your time and contributions help improve Axion Node for everyone.
 We appreciate all efforts—big or small!
 We hope to ultimately create an easy to use social platform that can be deployed by everyone for personal or commercial use.
