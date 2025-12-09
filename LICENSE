@@ -3,55 +3,50 @@ Business Source License 1.1
 Parameters
 
 Licensor: Clockwork Venture, Inc.
+
 Licensed Work: Axion Node
 The Licensed Work is the software made available by the Licensor under this License.
+
+Additional Use Grant: You may use the Licensed Work for non-commercial purposes only.
+Commercial use requires purchasing a commercial license from the Licensor.
+
 Change Date: 2029-12-09
+
 Change License: Apache License, Version 2.0
 
-Usage Limitation: The Licensed Work may be used at no charge for non-commercial purposes only.
-Commercial use of the Licensed Work requires a separate paid commercial license from the Licensor.
-Commercial use includes, but is not limited to:
-- Use within any business, corporation, or organization
-- Use by employees or contractors
-- Hosting the Licensed Work as a service (SaaS)
-- Using the Licensed Work for any revenue-generating or operational business purpose
-- Embedding or integrating it into a commercial or paid product
-- Providing services, support, or hosting based on the Licensed Work
+-----------------------------------------------------------------------
 
-License Text
+Business Source License 1.1
+
+Terms
 
 1. Grant of Rights
-Licensor hereby grants you the right to copy, modify, create derivative works, redistribute,
-and make non-production use of the Licensed Work. The Licensor may make an Additional Use Grant,
-below, permitting limited production use.
+The Licensor hereby grants you the right to copy, modify, create derivative works,
+redistribute, and make non-production use of the Licensed Work. The Licensor may
+make an Additional Use Grant, above, permitting limited production use.
 
-2. Additional Use Grant
-The Licensor grants you the right to use the Licensed Work for non-commercial purposes only.
-Any commercial use is expressly prohibited unless you obtain a separate commercial license
-from the Licensor.
+2. Limitations
+The License does not allow use of the Licensed Work for any purpose other than the
+uses expressly granted in this License, including the Additional Use Grant specified
+above. Other uses, including production use, are allowed after the Change Date unless
+the Licensor provides an Additional Use Grant permitting earlier production use.
 
-3. Limitations
-You may not use the Licensed Work for commercial purposes (as defined above) prior to the
-Change Date without purchasing a commercial license. After the Change Date, the Licensed Work
-will be made available under the Change License.
+3. Change License
+As of the Change Date, the Licensed Work will be made available under the Change License,
+as published by the Open Source Initiative.
 
-4. Change License
-On the Change Date, the Licensed Work will automatically be made available under the
-Change License, as published by the Open Source Initiative.
+4. Notices
+You must keep all copyright notices in the Licensed Work and provide recipients of
+the Licensed Work with a copy of this License. You must include the License file with
+any distribution of the Licensed Work.
 
-5. Notices
-You must retain all copyright notices and this License file with any redistribution of the
-Licensed Work. You may not remove or alter any notices contained in the Licensed Work.
-
-6. Disclaimer
+5. Disclaimer
 THE LICENSED WORK IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED,
 INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR
 PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE LICENSOR BE LIABLE FOR ANY CLAIM,
-DAMAGES, OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
-FROM, OUT OF, OR IN CONNECTION WITH THE LICENSED WORK OR THE USE OF THE LICENSED WORK.
+DAMAGES, OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE,
+ARISING FROM, OUT OF, OR IN CONNECTION WITH THE LICENSED WORK OR THE USE OF THE LICENSED WORK.
 
-7. Trademarks
-This License does not grant any rights to use the Licensor’s trademarks or trade names.
+-----------------------------------------------------------------------
 
-For commercial licensing information, visit:
-https://axionnode.com/commercial-license
+For commercial licensing, visit: https://axionnode.com/commercial-license
