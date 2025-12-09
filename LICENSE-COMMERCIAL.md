@@ -1,71 +1,32 @@
-# AxionNode – Commercial License
+# Axion Node Commercial License
 
-AxionNode is offered under a **dual-licensing model**:
+This Commercial License grants commercial usage rights for Axion Node
+to customers who have purchased a valid commercial license from the
+Licensor (Clockwork Venture, Inc.).
 
-- **Community Edition – AGPL-3.0**  
-  Free to use, modify, and deploy as long as all modifications and network use remain open source under the AGPL.
+## Rights Granted
+A valid commercial license grants you the following rights:
 
-- **Commercial License – Required for proprietary use**  
-  A paid commercial license is required for any organization or developer who wishes to use AxionNode **without the obligations of the AGPL**.
+- Use Axion Node in any commercial, enterprise, or business environment
+- Use Axion Node internally within a company or organization
+- Host Axion Node as a SaaS, managed service, or cloud offering
+- Modify, extend, or integrate Axion Node into commercial systems
+- Keep modifications private and proprietary
+- Distribute Axion Node as part of your paid or enterprise product
+- Receive priority support (if included in your plan)
 
----
+## Restrictions
+Without a valid commercial license, commercial use is prohibited under
+the Business Source License (BSL).
 
-## What Requires a Commercial License?
+You may not:
+- Transfer this license to another party without permission
+- Misrepresent Axion Node as your own standalone product
+- Use trademarks or branding without separate permission
 
-A commercial license is required for:
+## Support & Updates
+Commercial customers receive access to updates and patches during their license term.
 
-- Using AxionNode in a **closed-source** or **proprietary** product
-- Creating **private forks** or keeping modifications internal
-- Deploying AxionNode as a **SaaS** or hosted commercial service
-- Embedding AxionNode into a paid or enterprise platform
-- Any use where AGPL disclosure requirements are not acceptable
-- Corporate internal use where the code cannot be shared publicly
-- Commercial redistribution or resale
-
-If you are uncertain whether your use qualifies, contact us.
-
----
-
-## Rights Granted Under the Commercial License
-
-A commercial license grants:
-
-- Permission to **keep your source code, modifications, and forks private**
-- No AGPL obligations, including:
-  - No requirement to publish source code
-  - No requirement to disclose modifications
-  - No copyleft obligations for network-accessed services
-- Unlimited internal commercial use
-- Rights to deploy AxionNode in proprietary environments
-- Optional enterprise support packages
-
----
-
-## Why Consider a Commercial License?
-
-The Community Edition (AGPL) requires that **any modification**, when used over a network or deployed as a service, must be released publicly under the AGPL.
-
-If your company needs privacy or intends to build a proprietary service on top of AxionNode, a commercial license is required.
-
----
-
-## Obtain a Commercial License
-
-Commercial licenses are available from Clockwork Venture Inc.
-
-**Pricing and details:**  
-https://axionnode.com/commercial-license
-
-**Contact:**  
-licensing@axionnode.com
-
----
-
-## Enforcement
-
-Using AxionNode for commercial or proprietary purposes **without purchasing a commercial license** is a violation of copyright law and AGPL terms.
-
----
-
-Copyright © 2025  
-Clockwork Venture Inc.
+## Contact
+To purchase a commercial license, visit: https://axionnode.com/commercial-license
+Email us at [licensing@axionnode.com](mailto:licensing@axionnode.com) for any questions.

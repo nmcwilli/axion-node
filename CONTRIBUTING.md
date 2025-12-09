@@ -8,19 +8,30 @@ This document outlines the process, expectations, and licensing terms for contri
 
 ⸻
 
-# 📄 Licensing
+## 📄 License
 
-By contributing to Axion Node, you agree to license your contributions under the repository’s dual-license model:
-- AGPL-3.0 for the open-source Community Edition
-- A commercial license for customers of the Commercial Edition
+Axion Node is licensed under the **Business Source License 1.1 (BSL)**.
 
-All contributions (code, documentation, tests, and other assets) may be used under both licenses at the project maintainer’s discretion.
+### ✔ Free Use
+You may use Axion Node freely for:
+- Personal projects  
+- Research  
+- Learning  
+- Hobby/non-commercial deployments  
 
-For details:
-- Community license: [AGPL-3.0 License](./LICENSE).￼
-- Commercial license: [Commercial License](./LICENSE-COMMERCIAL.md)
+### 💼 Commercial Use Requires a License
+Any commercial use requires purchasing a commercial license.
 
-If you do not agree to these terms, please do not submit contributions.
+Commercial use includes:
+- Running Axion Node inside a business or organization  
+- Using it for any revenue-generating purpose  
+- Hosting it as a SaaS or managed service  
+- Embedding it into a commercial product  
+- Internal enterprise deployments  
+
+See the full license:  
+- **BSL License:** [`LICENSE`](./LICENSE)  
+- **Commercial License:** [`LICENSE-COMMERCIAL.md`](./LICENSE-COMMERCIAL.md)
 
 ⸻
 

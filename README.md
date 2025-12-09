@@ -17,26 +17,30 @@ AxionNode originally began as SocialBook, and the backend package still uses the
 Copyright 2025 Clockwork Venture Inc.
 Created by Michael Neil McWilliam
 
-## License
-This project is **dual-licensed**:
+## 📄 License
 
-**Community Edition:** [AGPL v3.0]
-- Free for personal, academic, or commercial use as long as modifications are open sourced
-- Source-available
-- Copyleft applies to network use (standard AGPL rules)
-- View the AGPL v3.0 license: [AGPL v3.0 License](./LICENSE).
+Axion Node is licensed under the **Business Source License 1.1 (BSL)**.
 
-**Commercial Edition:** 
-For organizations or developers who need:
-- Closed-source modifications
-- Private forks
-- Proprietary hosting
-- View the commercial license: [Commercial License](./LICENSE-COMMERCIAL.md)
+## ✔ Free Use
+You may use Axion Node freely for:
+- Personal projects  
+- Research  
+- Learning  
+- Hobby/non-commercial deployments  
 
-To purchase a commercial license, visit: https://axionnode.com/commercial-license
-Email us at [licensing@axionnode.com](mailto:licensing@axionnode.com) for any questions.
+## 💼 Commercial Use Requires a License
+Any commercial use requires purchasing a commercial license.
 
-By contributing to this repository, you agree that your contributions will be licensed under AGPL-v3 for the Community Edition.
+Commercial use includes:
+- Running Axion Node inside a business or organization  
+- Using it for any revenue-generating purpose  
+- Hosting it as a SaaS or managed service  
+- Embedding it into a commercial product  
+- Internal enterprise deployments  
+
+See the full license:  
+- **BSL License:** [`LICENSE`](./LICENSE)  
+- **Commercial License:** [`LICENSE-COMMERCIAL.md`](./LICENSE-COMMERCIAL.md)
 
 ## Third-Party Notices
 
