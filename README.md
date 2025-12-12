@@ -1,5 +1,5 @@
 # About
-AxionNode is an open source social platform consisting of:
+AxionNode is a source-available social platform consisting of:
 - A Python Django backend
 - Nginx reverse proxy
 - A React Native + Expo mobile/web frontend
